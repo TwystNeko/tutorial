@@ -1,0 +1,25 @@
+{
+	"name" : "4-Play Signup System",
+	"description" : "Membership Signup System",
+	"authors" : [
+		{
+			"name" : "Noel Bundy",
+			"email" : "twystneko@gmail.com",
+			"role" : "Main Dev"
+		}
+	],
+	"require": { 
+		"php": ">=7.0.0",
+		"filp/whoops": "^2.1",
+		"symfony/var-dumper": "^3.2",
+		"patricklouys/http": "^1.4",
+		"nikic/fast-route": "^1.2",
+		"rdlowrey/auryn": "^1.4",
+		"twig/twig": "^2.1"
+	},
+	"autoload": { 
+		"psr-4": { 
+			"App\\" : "src/"
+		}
+	}
+}
