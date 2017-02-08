@@ -2,4 +2,5 @@
 
 return [
 	['GET', '/', ['App\Controllers\Signup', 'show']],
+	['GET', '/{slug}', ['App\Controllers\Page', 'show']],
 ];
